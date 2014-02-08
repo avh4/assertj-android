@@ -1,13 +1,13 @@
-Android FEST
-============
+Android AssertJ
+===============
 
-A set of FEST assertions geared toward testing Android.
+A set of AssertJ assertions geared toward testing Android.
 
 Writing tests is not the most glamorous part of developing an Android
-application but it is an invaluable one. Using libraries like JUnit and FEST
+application but it is an invaluable one. Using libraries like JUnit and AssertJ
 provide a great starting point for writing tests.
 
-This library is an extension of [FEST][1] which aims to make it even easier to test
+This library is an extension of [AssertJ][1] which aims to make it even easier to test
 Android.
 
 
@@ -15,7 +15,7 @@ Android.
 Examples
 --------
 
- *  FEST Android:
+ *  AssertJ Android:
 
     ```java
     assertThat(view).isGone();
@@ -27,25 +27,25 @@ Examples
     assertEquals(View.GONE, view.getVisibility());
     ```
 
- *  Regular FEST:
+ *  Regular AssertJ:
 
     ```java
     assertThat(view.getVisibility()).isEqualTo(View.GONE);
     ```
 
-When failing, the _FEST Android_ assertion produces an output which allows you
+When failing, the _AssertJ Android_ assertion produces an output which allows you
 to immediately recognize the problem:
 `Expected visibility <gone> but was <invisible>`.
 
-Compare that to the output of regular _FEST_ `Expected:<[8]> but was:<[4]>` and
+Compare that to the output of regular _AssertJ_ `Expected:<[8]> but was:<[4]>` and
 regular _JUnit_ `Expected: <8> but was: <4>` and you should immediately see the
 advantage.
 
 
-Because _FEST Android_ offers assertions directly on objects rather than
+Because _AssertJ Android_ offers assertions directly on objects rather than
 properties they can be chained together.
 
- *  FEST Android:
+ *  AssertJ Android:
 
     ```java
     assertThat(layout).isVisible()
@@ -63,7 +63,7 @@ properties they can be chained together.
     assertEquals(SHOW_DIVIDERS_MIDDLE, layout.getShowDividers());
     ```
 
- *  Regular FEST:
+ *  Regular AssertJ:
 
     ```java
     assertThat(layout.getVisibility()).isEqualTo(View.VISIBLE);
@@ -138,13 +138,13 @@ Download [the latest JAR][3] or grab via Maven:
 ```xml
 <dependency>
   <groupId>com.squareup</groupId>
-  <artifactId>fest-android</artifactId>
+  <artifactId>assertj-android</artifactId>
   <version>1.0.1</version>
 </dependency>
 ```
 
 If you are not using Maven or Gradle you will also need to include the latest
-[FEST][4] jar in your build.
+[AssertJ][4] jar in your build.
 
 Compilation requires Android 4.1 or newer.
 
@@ -170,7 +170,7 @@ License
 
 
 
- [1]: http://fest.easytesting.org
- [2]: https://github.com/alexruiz/fest-assert-2.x/wiki/Creating-specific-assertions
- [3]: http://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=com.squareup&a=fest-android&v=LATEST
- [4]: http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.easytesting%22%20a%3A%22fest-assert-core%22
+ [1]: http://joel-costigliola.github.io/assertj/
+ [2]: http://joel-costigliola.github.io/assertj/assertj-core-custom-assertions.html
+ [3]: http://repository.sonatype.org/service/local/artifact/maven/redirect?r=central-proxy&g=com.squareup&a=assertj-android&v=LATEST
+ [4]: http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.assertj%22%20a%3A%22assertj-core%22
