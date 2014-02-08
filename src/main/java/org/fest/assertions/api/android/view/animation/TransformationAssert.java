@@ -3,13 +3,13 @@ package org.fest.assertions.api.android.view.animation;
 
 import android.graphics.Matrix;
 import android.view.animation.Transformation;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
 import static android.view.animation.Transformation.TYPE_ALPHA;
 import static android.view.animation.Transformation.TYPE_BOTH;
 import static android.view.animation.Transformation.TYPE_IDENTITY;
 import static android.view.animation.Transformation.TYPE_MATRIX;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link Transformation} instances. */
 public class TransformationAssert extends AbstractAssert<TransformationAssert, Transformation> {

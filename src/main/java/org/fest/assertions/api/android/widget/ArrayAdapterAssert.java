@@ -5,7 +5,7 @@ import android.content.Context;
 import android.widget.ArrayAdapter;
 import android.widget.Filter;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link ArrayAdapter} instances. */
 public class ArrayAdapterAssert

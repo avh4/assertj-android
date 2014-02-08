@@ -2,8 +2,8 @@
 package org.fest.assertions.api.android.os;
 
 import android.os.Vibrator;
-import org.fest.assertions.api.Assertions;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.Assertions;
+import org.assertj.core.api.AbstractAssert;
 
 /** Assertions for {@link Vibrator} instances. Buzz buzz. */
 public class VibratorAssert extends AbstractAssert<VibratorAssert, Vibrator> {

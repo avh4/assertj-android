@@ -2,9 +2,9 @@
 package org.fest.assertions.api.android.support.v4.app;
 
 import android.support.v4.app.LoaderManager;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link LoaderManager} instances. */
 public class LoaderManagerAssert extends AbstractAssert<LoaderManagerAssert, LoaderManager> {

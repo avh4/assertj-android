@@ -2,8 +2,8 @@
 package org.fest.assertions.api.android.hardware.usb;
 
 import android.hardware.usb.UsbInterface;
-import org.fest.assertions.api.Assertions;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.Assertions;
+import org.assertj.core.api.AbstractAssert;
 
 /** Assertions for {@link UsbInterface} instances. */
 public class UsbInterfaceAssert extends AbstractAssert<UsbInterfaceAssert, UsbInterface> {

@@ -2,7 +2,7 @@
 package org.fest.assertions.api.android.location;
 
 import android.location.Criteria;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
 import static android.location.Criteria.ACCURACY_COARSE;
 import static android.location.Criteria.ACCURACY_FINE;
@@ -13,7 +13,7 @@ import static android.location.Criteria.NO_REQUIREMENT;
 import static android.location.Criteria.POWER_HIGH;
 import static android.location.Criteria.POWER_LOW;
 import static android.location.Criteria.POWER_MEDIUM;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link Criteria} instances. */
 public class CriteriaAssert extends AbstractAssert<CriteriaAssert, Criteria> {

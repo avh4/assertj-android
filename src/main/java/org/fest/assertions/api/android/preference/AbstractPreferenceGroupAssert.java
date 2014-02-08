@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.preference;
 
 import android.preference.PreferenceGroup;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractPreferenceGroupAssert<S extends AbstractPreferenceGroupAssert<S, A>, A extends PreferenceGroup>
     extends AbstractPreferenceAssert<S, A> {

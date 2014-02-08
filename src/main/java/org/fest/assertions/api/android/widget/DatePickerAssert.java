@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.DatePicker;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class DatePickerAssert extends AbstractFrameLayoutAssert<DatePickerAssert, DatePicker> {
   public DatePickerAssert(DatePicker actual) {

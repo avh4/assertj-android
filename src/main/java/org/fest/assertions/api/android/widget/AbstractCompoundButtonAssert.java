@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.CompoundButton;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractCompoundButtonAssert<S extends AbstractCompoundButtonAssert<S, A>, A extends CompoundButton>
     extends AbstractTextViewAssert<S, A> {

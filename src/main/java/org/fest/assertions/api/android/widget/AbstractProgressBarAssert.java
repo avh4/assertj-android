@@ -6,7 +6,7 @@ import android.view.animation.Interpolator;
 import android.widget.ProgressBar;
 import org.fest.assertions.api.android.view.AbstractViewAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractProgressBarAssert<S extends AbstractProgressBarAssert<S, A>, A extends ProgressBar>
     extends AbstractViewAssert<S, A> {

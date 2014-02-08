@@ -5,7 +5,7 @@ import android.net.Uri;
 
 import java.util.Arrays;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link CursorLoader} instances. */
 public class CursorLoaderAssert extends AbstractLoaderAssert<CursorLoaderAssert, CursorLoader> {

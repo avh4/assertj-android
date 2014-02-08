@@ -4,7 +4,7 @@ package org.fest.assertions.api.android.support.v4.widget;
 import android.support.v4.widget.SimpleCursorAdapter;
 
 import static android.support.v4.widget.SimpleCursorAdapter.CursorToStringConverter;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link SimpleCursorAdapter} instances. */
 public class SimpleCursorAdapterAssert

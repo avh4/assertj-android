@@ -3,12 +3,12 @@ package org.fest.assertions.api.android.view.animation;
 
 import android.view.animation.Animation;
 import android.view.animation.Interpolator;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
 import static android.view.animation.Animation.INFINITE;
 import static android.view.animation.Animation.RESTART;
 import static android.view.animation.Animation.REVERSE;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractAnimationAssert<S extends AbstractAnimationAssert<S, A>, A extends Animation>
     extends AbstractAssert<S, A> {

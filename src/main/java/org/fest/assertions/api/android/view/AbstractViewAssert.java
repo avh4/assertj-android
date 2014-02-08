@@ -4,7 +4,7 @@ import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.view.ViewParent;
 import android.view.animation.Animation;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
 import static android.view.View.GONE;
 import static android.view.View.INVISIBLE;
@@ -19,7 +19,7 @@ import static android.view.View.SCROLLBAR_POSITION_DEFAULT;
 import static android.view.View.SCROLLBAR_POSITION_LEFT;
 import static android.view.View.SCROLLBAR_POSITION_RIGHT;
 import static android.view.View.VISIBLE;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractViewAssert<S extends AbstractViewAssert<S, A>, A extends View>
     extends AbstractAssert<S, A> {

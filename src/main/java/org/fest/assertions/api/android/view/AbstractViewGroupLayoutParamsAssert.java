@@ -1,9 +1,9 @@
 package org.fest.assertions.api.android.view;
 
 import android.view.ViewGroup;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractViewGroupLayoutParamsAssert<S extends AbstractViewGroupLayoutParamsAssert<S, A>, A extends ViewGroup.LayoutParams>
     extends AbstractAssert<S, A> {

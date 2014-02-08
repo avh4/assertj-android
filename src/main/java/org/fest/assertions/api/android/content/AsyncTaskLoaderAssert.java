@@ -2,7 +2,7 @@ package org.fest.assertions.api.android.content;
 
 import android.content.AsyncTaskLoader;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link AsyncTaskLoader} instances. */
 public class AsyncTaskLoaderAssert

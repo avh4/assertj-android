@@ -5,7 +5,7 @@ import android.widget.Adapter;
 import android.widget.AdapterView;
 import org.fest.assertions.api.android.view.AbstractViewGroupAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractAdapterViewAssert<S extends AbstractAdapterViewAssert<S, A>, A extends AdapterView>
     extends AbstractViewGroupAssert<S, A> {

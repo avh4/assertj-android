@@ -2,9 +2,9 @@
 package org.fest.assertions.api.android.os;
 
 import android.os.AsyncTask;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link AsyncTask} instances. */
 public class AsyncTaskAssert extends AbstractAssert<AsyncTaskAssert, AsyncTask> {

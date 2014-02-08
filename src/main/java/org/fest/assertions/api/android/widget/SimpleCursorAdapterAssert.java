@@ -5,7 +5,7 @@ import android.widget.SimpleCursorAdapter;
 
 import static android.widget.SimpleCursorAdapter.CursorToStringConverter;
 import static android.widget.SimpleCursorAdapter.ViewBinder;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link SimpleCursorAdapter} instances. */
 public class SimpleCursorAdapterAssert

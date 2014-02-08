@@ -7,7 +7,7 @@ import org.fest.assertions.api.android.util.BitMaskStringBuilder;
 import static android.media.RingtoneManager.TYPE_ALARM;
 import static android.media.RingtoneManager.TYPE_NOTIFICATION;
 import static android.media.RingtoneManager.TYPE_RINGTONE;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link RingtonePreference} instances. */
 public class RingtonePreferenceAssert

@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.preference;
 
 import android.preference.SwitchPreference;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link SwitchPreference} instances. */
 public class SwitchPreferenceAssert

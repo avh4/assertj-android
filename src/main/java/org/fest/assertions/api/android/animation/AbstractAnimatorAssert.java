@@ -2,9 +2,9 @@
 package org.fest.assertions.api.android.animation;
 
 import android.animation.Animator;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractAnimatorAssert<S extends AbstractAnimatorAssert<S, A>, A extends Animator>
     extends AbstractAssert<S, A> {

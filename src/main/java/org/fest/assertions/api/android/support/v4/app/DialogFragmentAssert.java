@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.support.v4.app;
 
 import android.support.v4.app.DialogFragment;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link DialogFragment} instances. */
 public class DialogFragmentAssert

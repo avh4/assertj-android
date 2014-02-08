@@ -2,9 +2,9 @@ package org.fest.assertions.api.android.view;
 
 import android.view.ActionMode;
 import android.view.View;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link ActionMode} instances. */
 public class ActionModeAssert extends AbstractAssert<ActionModeAssert, ActionMode> {

@@ -1,14 +1,14 @@
 package org.fest.assertions.api.android.view;
 
 import android.view.KeyCharacterMap;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
 import static android.view.KeyCharacterMap.ALPHA;
 import static android.view.KeyCharacterMap.FULL;
 import static android.view.KeyCharacterMap.NUMERIC;
 import static android.view.KeyCharacterMap.PREDICTIVE;
 import static android.view.KeyCharacterMap.SPECIAL_FUNCTION;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class KeyCharacterMapAssert extends AbstractAssert<KeyCharacterMapAssert, KeyCharacterMap> {
   public KeyCharacterMapAssert(KeyCharacterMap actual) {

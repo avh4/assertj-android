@@ -2,9 +2,9 @@
 package org.fest.assertions.api.android.database.sqlite;
 
 import android.database.sqlite.SQLiteDatabase;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link SQLiteDatabase} instances. */
 public class SqliteDatabaseAssert extends AbstractAssert<SqliteDatabaseAssert, SQLiteDatabase> {

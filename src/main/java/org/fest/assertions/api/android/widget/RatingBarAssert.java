@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.RatingBar;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link RatingBar} instances. */
 public class RatingBarAssert extends AbstractAbsSeekBarAssert<RatingBarAssert, RatingBar> {

@@ -4,7 +4,7 @@ package org.fest.assertions.api.android.widget;
 import android.graphics.drawable.Drawable;
 import android.widget.CalendarView;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class CalendarViewAssert
     extends AbstractFrameLayoutAssert<CalendarViewAssert, CalendarView> {

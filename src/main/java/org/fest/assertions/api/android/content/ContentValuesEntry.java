@@ -1,9 +1,9 @@
 package org.fest.assertions.api.android.content;
 
-import static org.fest.util.Objects.HASH_CODE_PRIME;
-import static org.fest.util.Objects.areEqual;
-import static org.fest.util.Objects.hashCodeFor;
-import static org.fest.util.Strings.quote;
+import static org.assertj.core.util.Objects.HASH_CODE_PRIME;
+import static org.assertj.core.util.Objects.areEqual;
+import static org.assertj.core.util.Objects.hashCodeFor;
+import static org.assertj.core.util.Strings.quote;
 
 public class ContentValuesEntry {
   private final String key;

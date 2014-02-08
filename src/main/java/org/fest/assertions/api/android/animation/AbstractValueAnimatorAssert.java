@@ -6,7 +6,7 @@ import android.animation.ValueAnimator;
 import static android.animation.ValueAnimator.INFINITE;
 import static android.animation.ValueAnimator.RESTART;
 import static android.animation.ValueAnimator.REVERSE;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractValueAnimatorAssert<S extends AbstractValueAnimatorAssert<S, A>, A extends ValueAnimator>
     extends AbstractAnimatorAssert<S, A> {

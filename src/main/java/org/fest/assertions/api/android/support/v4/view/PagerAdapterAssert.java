@@ -2,9 +2,9 @@
 package org.fest.assertions.api.android.support.v4.view;
 
 import android.support.v4.view.PagerAdapter;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link PagerAdapter} instances. */
 public class PagerAdapterAssert extends AbstractAssert<PagerAdapterAssert, PagerAdapter> {

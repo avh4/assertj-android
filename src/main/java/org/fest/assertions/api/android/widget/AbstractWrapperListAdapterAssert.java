@@ -4,7 +4,7 @@ package org.fest.assertions.api.android.widget;
 import android.widget.ListAdapter;
 import android.widget.WrapperListAdapter;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractWrapperListAdapterAssert<S extends AbstractWrapperListAdapterAssert<S, A>, A extends WrapperListAdapter>
     extends AbstractListAdapterAssert<S, A> {

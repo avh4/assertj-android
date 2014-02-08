@@ -1,7 +1,7 @@
 package org.fest.assertions.api.android.content;
 
 import android.content.Context;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
 public abstract class AbstractContextAssert<S extends AbstractContextAssert<S, A>, A extends Context>
     extends AbstractAssert<S, A> {

@@ -2,7 +2,7 @@ package org.fest.assertions.api.android.app;
 
 import android.app.ListFragment;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link ListFragment} instances. */
 public class ListFragmentAssert extends AbstractFragmentAssert<ListFragmentAssert, ListFragment> {

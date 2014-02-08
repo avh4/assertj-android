@@ -7,7 +7,7 @@ import android.graphics.PathEffect;
 import android.graphics.Rasterizer;
 import android.graphics.Shader;
 import android.graphics.Typeface;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 import org.fest.assertions.api.android.util.BitMaskStringBuilder;
 
 import static android.graphics.Paint.ANTI_ALIAS_FLAG;
@@ -19,7 +19,7 @@ import static android.graphics.Paint.LINEAR_TEXT_FLAG;
 import static android.graphics.Paint.STRIKE_THRU_TEXT_FLAG;
 import static android.graphics.Paint.SUBPIXEL_TEXT_FLAG;
 import static android.graphics.Paint.UNDERLINE_TEXT_FLAG;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractPaintAssert<S extends AbstractPaintAssert<S, A>, A extends Paint>
     extends AbstractAssert<S, A> {

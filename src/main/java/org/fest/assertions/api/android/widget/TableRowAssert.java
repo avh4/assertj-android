@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.TableRow;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link TableRow} instances. */
 public class TableRowAssert extends AbstractLinearLayoutAssert<TableRowAssert, TableRow> {

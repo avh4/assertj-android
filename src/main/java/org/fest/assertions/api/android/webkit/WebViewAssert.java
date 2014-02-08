@@ -5,7 +5,7 @@ import android.net.http.SslCertificate;
 import android.webkit.WebView;
 import org.fest.assertions.api.android.widget.AbstractAbsoluteLayoutAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link WebView} instances. */
 public class WebViewAssert extends AbstractAbsoluteLayoutAssert<WebViewAssert, WebView> {

@@ -2,7 +2,7 @@ package org.fest.assertions.api.android.view;
 
 import android.view.ViewStub;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link ViewStub} instances. */
 public class ViewStubAssert extends AbstractViewAssert<ViewStubAssert, ViewStub> {

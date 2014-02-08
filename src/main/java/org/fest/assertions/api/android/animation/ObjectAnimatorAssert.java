@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.animation;
 
 import android.animation.ObjectAnimator;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link ObjectAnimator} instances. */
 public class ObjectAnimatorAssert

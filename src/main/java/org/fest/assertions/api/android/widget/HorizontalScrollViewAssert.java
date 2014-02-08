@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.HorizontalScrollView;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link HorizontalScrollView} instances. */
 public class HorizontalScrollViewAssert

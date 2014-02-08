@@ -6,7 +6,7 @@ import android.support.v4.widget.CursorAdapter;
 import android.widget.Filter;
 import org.fest.assertions.api.android.widget.AbstractListAdapterAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractCursorAdapterAssert<S extends AbstractCursorAdapterAssert<S, A>, A extends CursorAdapter>
     extends AbstractListAdapterAssert<S, A> {

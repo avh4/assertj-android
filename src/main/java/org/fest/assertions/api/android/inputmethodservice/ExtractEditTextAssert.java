@@ -4,7 +4,7 @@ package org.fest.assertions.api.android.inputmethodservice;
 import android.inputmethodservice.ExtractEditText;
 import org.fest.assertions.api.android.widget.AbstractTextViewAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class ExtractEditTextAssert extends AbstractTextViewAssert<ExtractEditTextAssert, ExtractEditText> {
   public ExtractEditTextAssert(ExtractEditText actual) {

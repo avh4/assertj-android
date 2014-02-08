@@ -4,12 +4,12 @@ package org.fest.assertions.api.android.widget;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.PopupWindow;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
 import static android.widget.PopupWindow.INPUT_METHOD_FROM_FOCUSABLE;
 import static android.widget.PopupWindow.INPUT_METHOD_NEEDED;
 import static android.widget.PopupWindow.INPUT_METHOD_NOT_NEEDED;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link PopupWindow} instances. */
 public class PopupWindowAssert extends AbstractAssert<PopupWindowAssert, PopupWindow> {

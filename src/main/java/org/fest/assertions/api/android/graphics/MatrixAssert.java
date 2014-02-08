@@ -2,9 +2,9 @@
 package org.fest.assertions.api.android.graphics;
 
 import android.graphics.Matrix;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link Matrix} instances. */
 public class MatrixAssert extends AbstractAssert<MatrixAssert, Matrix> {

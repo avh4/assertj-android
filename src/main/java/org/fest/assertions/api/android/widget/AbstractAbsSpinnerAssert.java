@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.AbsSpinner;
 import android.widget.SpinnerAdapter;
-import org.fest.assertions.api.Assertions;
+import org.assertj.core.api.Assertions;
 
 public abstract class AbstractAbsSpinnerAssert<S extends AbstractAbsSpinnerAssert<S, A>, A extends AbsSpinner>
     extends AbstractAdapterViewAssert<S, A> {

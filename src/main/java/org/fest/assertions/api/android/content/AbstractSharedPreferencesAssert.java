@@ -1,12 +1,12 @@
 package org.fest.assertions.api.android.content;
 
 import android.content.SharedPreferences;
-import org.fest.assertions.api.AbstractAssert;
-import org.fest.assertions.data.MapEntry;
+import org.assertj.core.api.AbstractAssert;
+import org.assertj.core.data.MapEntry;
 
 import java.util.Set;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractSharedPreferencesAssert
     <S extends AbstractSharedPreferencesAssert<S, A>, A extends SharedPreferences>

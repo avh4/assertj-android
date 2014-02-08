@@ -5,7 +5,7 @@ import android.app.Dialog;
 import android.graphics.drawable.Drawable;
 import android.preference.DialogPreference;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractDialogPreferenceAssert<S extends AbstractDialogPreferenceAssert<S, A>, A extends DialogPreference>
     extends AbstractPreferenceAssert<S, A> {

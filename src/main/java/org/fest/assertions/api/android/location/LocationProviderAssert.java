@@ -2,11 +2,11 @@
 package org.fest.assertions.api.android.location;
 
 import android.location.LocationProvider;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
 import static org.fest.assertions.api.android.location.CriteriaAssert.accuracyRequirementToString;
 import static org.fest.assertions.api.android.location.CriteriaAssert.powerRequirementToString;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link LocationProvider} instances. */
 public class LocationProviderAssert

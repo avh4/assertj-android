@@ -4,7 +4,7 @@ import android.graphics.drawable.Drawable;
 import android.widget.FrameLayout;
 import org.fest.assertions.api.android.view.AbstractViewGroupAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractFrameLayoutAssert<S extends AbstractFrameLayoutAssert<S, A>, A extends FrameLayout>
     extends AbstractViewGroupAssert<S, A> {

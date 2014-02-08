@@ -6,7 +6,7 @@ import android.widget.TextView;
 import org.fest.assertions.api.android.view.AbstractViewAssert;
 import java.util.regex.Pattern;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractTextViewAssert<S extends AbstractTextViewAssert<S, A>, A extends TextView>
     extends AbstractViewAssert<S, A> {

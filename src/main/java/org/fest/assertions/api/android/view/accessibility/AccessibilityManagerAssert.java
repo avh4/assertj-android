@@ -2,9 +2,9 @@
 package org.fest.assertions.api.android.view.accessibility;
 
 import android.view.accessibility.AccessibilityManager;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link AccessibilityManager} instances. */
 public class AccessibilityManagerAssert

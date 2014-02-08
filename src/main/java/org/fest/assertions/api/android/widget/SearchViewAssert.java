@@ -4,7 +4,7 @@ package org.fest.assertions.api.android.widget;
 import android.widget.CursorAdapter;
 import android.widget.SearchView;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link SearchView} instances. */
 public class SearchViewAssert extends AbstractLinearLayoutAssert<SearchViewAssert, SearchView> {

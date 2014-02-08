@@ -5,7 +5,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import org.fest.assertions.api.android.view.AbstractViewGroupAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link ViewPager} instances. */
 public class ViewPagerAssert extends AbstractViewGroupAssert<ViewPagerAssert, ViewPager> {

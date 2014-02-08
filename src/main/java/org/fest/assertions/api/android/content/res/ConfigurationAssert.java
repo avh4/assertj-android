@@ -1,7 +1,7 @@
 package org.fest.assertions.api.android.content.res;
 
 import android.content.res.Configuration;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
 import static android.content.res.Configuration.UI_MODE_TYPE_APPLIANCE;
 import static android.content.res.Configuration.UI_MODE_TYPE_CAR;

@@ -1,9 +1,9 @@
 package org.fest.assertions.api.android.app;
 
 import android.app.Dialog;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractDialogAssert<S extends AbstractDialogAssert<S, A>, A extends Dialog>
     extends AbstractAssert<S, A> {

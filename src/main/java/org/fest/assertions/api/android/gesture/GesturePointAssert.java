@@ -2,8 +2,8 @@
 package org.fest.assertions.api.android.gesture;
 
 import android.gesture.GesturePoint;
-import org.fest.assertions.api.Assertions;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.Assertions;
+import org.assertj.core.api.AbstractAssert;
 
 /** Assertions for {@link GesturePoint} instances. */
 public class GesturePointAssert extends AbstractAssert<GesturePointAssert, GesturePoint> {

@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.ViewFlipper;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link ViewFlipper} instances. */
 public class ViewFlipperAssert extends AbstractViewAnimatorAssert<ViewFlipperAssert, ViewFlipper> {

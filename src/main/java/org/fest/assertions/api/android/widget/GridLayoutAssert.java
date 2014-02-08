@@ -7,7 +7,7 @@ import static android.widget.GridLayout.ALIGN_BOUNDS;
 import static android.widget.GridLayout.ALIGN_MARGINS;
 import static android.widget.GridLayout.HORIZONTAL;
 import static android.widget.GridLayout.VERTICAL;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link GridLayout} instances. */
 public class GridLayoutAssert extends AbstractViewGroupAssert<GridLayoutAssert, GridLayout> {

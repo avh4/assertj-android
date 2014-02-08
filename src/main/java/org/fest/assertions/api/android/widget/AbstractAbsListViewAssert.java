@@ -2,7 +2,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.AbsListView;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractAbsListViewAssert<S extends AbstractAbsListViewAssert<S, A>, A extends AbsListView>
     extends AbstractAdapterViewAssert<S, A> {

@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.ListAdapter;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractListAdapterAssert<S extends AbstractListAdapterAssert<S, A>, A extends ListAdapter>
     extends AbstractAdapterAssert<S, A> {

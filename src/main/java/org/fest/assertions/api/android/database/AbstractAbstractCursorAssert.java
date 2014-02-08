@@ -4,7 +4,7 @@ package org.fest.assertions.api.android.database;
 import android.database.AbstractCursor;
 import android.net.Uri;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractAbstractCursorAssert<S extends AbstractAbstractCursorAssert<S, A>, A extends AbstractCursor>
     extends AbstractCursorAssert<S, A> {

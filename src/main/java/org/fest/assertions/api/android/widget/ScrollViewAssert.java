@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.ScrollView;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class ScrollViewAssert extends AbstractFrameLayoutAssert<ScrollViewAssert, ScrollView> {
   public ScrollViewAssert(ScrollView actual) {

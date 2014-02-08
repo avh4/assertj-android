@@ -13,7 +13,7 @@ import static android.view.animation.GridLayoutAnimationController.DIRECTION_VER
 import static android.view.animation.GridLayoutAnimationController.PRIORITY_COLUMN;
 import static android.view.animation.GridLayoutAnimationController.PRIORITY_NONE;
 import static android.view.animation.GridLayoutAnimationController.PRIORITY_ROW;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link GridLayoutAnimationController} instances. */
 public class GridLayoutAnimationControllerAssert extends

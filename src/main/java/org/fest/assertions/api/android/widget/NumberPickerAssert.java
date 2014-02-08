@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.NumberPicker;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class NumberPickerAssert
     extends AbstractLinearLayoutAssert<NumberPickerAssert, NumberPicker> {

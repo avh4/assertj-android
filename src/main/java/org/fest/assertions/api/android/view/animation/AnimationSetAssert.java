@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.view.animation;
 
 import android.view.animation.AnimationSet;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link AnimationSet} instances. */
 public class AnimationSetAssert extends AbstractAnimationAssert<AnimationSetAssert, AnimationSet> {

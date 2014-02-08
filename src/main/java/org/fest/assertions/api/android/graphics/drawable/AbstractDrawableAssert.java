@@ -3,9 +3,9 @@ package org.fest.assertions.api.android.graphics.drawable;
 
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractDrawableAssert<S extends AbstractDrawableAssert<S, A>, A extends Drawable>
     extends AbstractAssert<S, A> {

@@ -1,7 +1,7 @@
 package org.fest.assertions.api.android.app;
 
 import android.app.ActionBar;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 import org.fest.assertions.api.android.util.BitMaskStringBuilder;
 
 import static android.app.ActionBar.DISPLAY_HOME_AS_UP;
@@ -12,7 +12,7 @@ import static android.app.ActionBar.DISPLAY_USE_LOGO;
 import static android.app.ActionBar.NAVIGATION_MODE_LIST;
 import static android.app.ActionBar.NAVIGATION_MODE_STANDARD;
 import static android.app.ActionBar.NAVIGATION_MODE_TABS;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link ActionBar} instances. */
 public class ActionBarAssert extends AbstractAssert<ActionBarAssert, ActionBar> {

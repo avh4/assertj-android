@@ -2,9 +2,9 @@ package org.fest.assertions.api.android.view;
 
 import android.graphics.Point;
 import android.view.Display;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 import static android.view.Surface.ROTATION_0;
 import static android.view.Surface.ROTATION_90;
 import static android.view.Surface.ROTATION_270;

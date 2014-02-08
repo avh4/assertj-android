@@ -4,7 +4,7 @@ package org.fest.assertions.api.android.app;
 import android.app.Activity;
 import org.fest.assertions.api.android.content.AbstractContextAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractActivityAssert<S extends AbstractActivityAssert<S, A>, A extends Activity>
     extends AbstractContextAssert<S, A> {

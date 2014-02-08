@@ -2,7 +2,7 @@ package org.fest.assertions.api.android.view;
 
 import android.view.View;
 import android.view.Window;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
 import static android.view.Window.FEATURE_ACTION_BAR;
 import static android.view.Window.FEATURE_ACTION_BAR_OVERLAY;
@@ -15,7 +15,7 @@ import static android.view.Window.FEATURE_NO_TITLE;
 import static android.view.Window.FEATURE_OPTIONS_PANEL;
 import static android.view.Window.FEATURE_PROGRESS;
 import static android.view.Window.FEATURE_RIGHT_ICON;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link Window} instances. */
 public class WindowAssert extends AbstractAssert<WindowAssert, Window> {

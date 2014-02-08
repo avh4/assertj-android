@@ -2,9 +2,9 @@
 package org.fest.assertions.api.android.util;
 
 import android.util.Pair;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link Pair} instances. */
 public class PairAssert<F, S> extends AbstractAssert<PairAssert<F, S>, Pair<F, S>> {

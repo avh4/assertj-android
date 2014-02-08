@@ -5,7 +5,7 @@ import android.app.ListActivity;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractListActivityAssert<S extends AbstractListActivityAssert<S, A>, A extends ListActivity>
     extends AbstractActivityAssert<S, A> {

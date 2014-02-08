@@ -1,9 +1,9 @@
 package org.fest.assertions.api.android.content;
 
 import android.content.ContentValues;
-import org.fest.assertions.api.AbstractAssert;
-import org.fest.assertions.core.WritableAssertionInfo;
-import org.fest.assertions.internal.Failures;
+import org.assertj.core.api.AbstractAssert;
+import org.assertj.core.api.WritableAssertionInfo;
+import org.assertj.core.internal.Failures;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;
@@ -11,9 +11,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import static org.fest.assertions.api.Assertions.assertThat;
-import static org.fest.assertions.error.ShouldContain.shouldContain;
-import static org.fest.util.Objects.areEqual;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.error.ShouldContain.shouldContain;
+import static org.assertj.core.util.Objects.areEqual;
 
 /** Assertions for {@link ContentValues} instances. */
 public class ContentValuesAssert extends AbstractAssert<ContentValuesAssert, ContentValues> {

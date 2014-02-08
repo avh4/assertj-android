@@ -2,10 +2,10 @@
 package org.fest.assertions.api.android.view;
 
 import android.view.Menu;
-import org.fest.assertions.api.AbstractAssert;
-import org.fest.assertions.api.Assertions;
+import org.assertj.core.api.AbstractAssert;
+import org.assertj.core.api.Assertions;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link Menu} instances. */
 public final class MenuAssert extends AbstractAssert<MenuAssert, Menu> {

@@ -3,9 +3,9 @@ package org.fest.assertions.api.android.widget;
 
 import android.graphics.drawable.Drawable;
 import android.widget.CheckedTextView;
-import org.fest.assertions.api.Assertions;
+import org.assertj.core.api.Assertions;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class CheckedTextViewAssert
     extends AbstractTextViewAssert<CheckedTextViewAssert, CheckedTextView> {

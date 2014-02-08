@@ -5,7 +5,7 @@ import android.view.View;
 import android.widget.SlidingDrawer;
 import org.fest.assertions.api.android.view.AbstractViewGroupAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link SlidingDrawer} instances. */
 public class SlidingDrawerAssert

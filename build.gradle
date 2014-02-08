@@ -15,7 +15,7 @@ dependencies {
     mavenCentral()
   }
   compile 'com.android.support:support-v4:19.0.+'
-  compile 'org.easytesting:fest-assert-core:2.0M10'
+  compile 'org.assertj:assertj-core:1.5.0'
 }
 
 android {

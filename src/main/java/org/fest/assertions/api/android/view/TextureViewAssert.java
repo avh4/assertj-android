@@ -2,7 +2,7 @@ package org.fest.assertions.api.android.view;
 
 import android.view.TextureView;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link TextureView} instances. */
 public class TextureViewAssert extends AbstractViewAssert<TextureViewAssert, TextureView> {

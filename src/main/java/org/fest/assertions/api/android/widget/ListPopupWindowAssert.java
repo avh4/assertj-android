@@ -5,12 +5,12 @@ import android.graphics.drawable.Drawable;
 import android.view.View;
 import android.widget.ListPopupWindow;
 import android.widget.ListView;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
 import static android.widget.ListPopupWindow.INPUT_METHOD_FROM_FOCUSABLE;
 import static android.widget.ListPopupWindow.INPUT_METHOD_NEEDED;
 import static android.widget.ListPopupWindow.INPUT_METHOD_NOT_NEEDED;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link ListPopupWindow} instances. */
 public class ListPopupWindowAssert extends AbstractAssert<ListPopupWindowAssert, ListPopupWindow> {

@@ -4,7 +4,7 @@ package org.fest.assertions.api.android.widget;
 import android.view.View;
 import android.widget.ViewSwitcher;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link ViewSwitcher} instances. */
 public class ViewSwitcherAssert

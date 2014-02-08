@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.TimePicker;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class TimePickerAssert extends AbstractFrameLayoutAssert<TimePickerAssert, TimePicker> {
   public TimePickerAssert(TimePicker actual) {

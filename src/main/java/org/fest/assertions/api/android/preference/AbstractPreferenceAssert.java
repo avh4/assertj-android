@@ -7,9 +7,9 @@ import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.preference.Preference;
 import android.preference.PreferenceManager;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractPreferenceAssert<S extends AbstractPreferenceAssert<S, A>, A extends Preference>
     extends AbstractAssert<S, A> {

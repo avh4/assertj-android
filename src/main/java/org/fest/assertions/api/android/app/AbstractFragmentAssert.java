@@ -1,9 +1,9 @@
 package org.fest.assertions.api.android.app;
 
 import android.app.Fragment;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractFragmentAssert<S extends AbstractFragmentAssert<S, A>, A extends Fragment> extends AbstractAssert<S, A> {
   protected AbstractFragmentAssert(A actual, Class<S> selfType) {

@@ -4,7 +4,7 @@ package org.fest.assertions.api.android.preference;
 import android.preference.PreferenceActivity;
 import org.fest.assertions.api.android.app.AbstractListActivityAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link PreferenceActivity} instances. */
 public class PreferenceActivityAssert

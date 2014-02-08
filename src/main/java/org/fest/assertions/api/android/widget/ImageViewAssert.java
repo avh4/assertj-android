@@ -5,7 +5,7 @@ import android.graphics.drawable.Drawable;
 import android.widget.ImageView;
 import org.fest.assertions.api.android.view.AbstractViewAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class ImageViewAssert extends AbstractViewAssert<ImageViewAssert, ImageView> {
   public ImageViewAssert(ImageView actual) {

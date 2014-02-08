@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.preference;
 
 import android.preference.TwoStatePreference;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractTwoStatePreference<S extends AbstractTwoStatePreference<S, A>, A extends TwoStatePreference>
     extends AbstractPreferenceAssert<S, A> {

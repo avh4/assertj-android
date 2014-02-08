@@ -2,7 +2,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.TableLayout;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class TableLayoutAssert extends AbstractLinearLayoutAssert<TableLayoutAssert, TableLayout> {
   public TableLayoutAssert(TableLayout actual) {

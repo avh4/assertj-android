@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.widget;
 
 import android.widget.RadioGroup;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link RadioGroup} instances. */
 public class RadioGroupAssert extends AbstractLinearLayoutAssert<RadioGroupAssert, RadioGroup> {

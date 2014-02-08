@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.app;
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.graphics.Bitmap;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 import org.fest.assertions.api.android.util.BitMaskStringBuilder;
 
 import static android.app.Notification.FLAG_AUTO_CANCEL;
@@ -19,7 +19,7 @@ import static android.app.Notification.PRIORITY_HIGH;
 import static android.app.Notification.PRIORITY_LOW;
 import static android.app.Notification.PRIORITY_MAX;
 import static android.app.Notification.PRIORITY_MIN;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class NotificationAssert extends AbstractAssert<NotificationAssert, Notification> {
   public NotificationAssert(Notification actual) {

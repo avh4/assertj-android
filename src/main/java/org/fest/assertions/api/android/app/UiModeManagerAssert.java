@@ -1,11 +1,11 @@
 package org.fest.assertions.api.android.app;
 
 import android.app.UiModeManager;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
 import static android.app.UiModeManager.MODE_NIGHT_NO;
 import static org.fest.assertions.api.android.content.res.ConfigurationAssert.uiModeTypeToString;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link UiModeManager} instances. */
 public class UiModeManagerAssert extends AbstractAssert<UiModeManagerAssert, UiModeManager> {

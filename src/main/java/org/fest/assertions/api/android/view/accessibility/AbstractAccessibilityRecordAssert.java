@@ -4,9 +4,9 @@ package org.fest.assertions.api.android.view.accessibility;
 import android.view.accessibility.AccessibilityNodeInfo;
 import android.view.accessibility.AccessibilityRecord;
 import java.util.List;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractAccessibilityRecordAssert<S extends AbstractAccessibilityRecordAssert<S, A>, A extends AccessibilityRecord>
     extends AbstractAssert<S, A> {

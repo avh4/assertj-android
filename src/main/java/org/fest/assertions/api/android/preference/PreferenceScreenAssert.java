@@ -5,7 +5,7 @@ import android.app.Dialog;
 import android.preference.PreferenceScreen;
 import android.widget.ListAdapter;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link PreferenceScreen} instances. */
 public class PreferenceScreenAssert

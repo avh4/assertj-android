@@ -4,7 +4,7 @@ package org.fest.assertions.api.android.widget;
 import android.widget.VideoView;
 import org.fest.assertions.api.android.view.AbstractViewAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link VideoView} instances. */
 public class VideoViewAssert extends AbstractViewAssert<VideoViewAssert, VideoView> {

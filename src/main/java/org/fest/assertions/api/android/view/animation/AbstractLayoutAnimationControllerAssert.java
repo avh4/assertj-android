@@ -4,9 +4,9 @@ package org.fest.assertions.api.android.view.animation;
 import android.view.animation.Animation;
 import android.view.animation.Interpolator;
 import android.view.animation.LayoutAnimationController;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractLayoutAnimationControllerAssert<S extends AbstractLayoutAnimationControllerAssert<S, A>, A extends LayoutAnimationController>
     extends AbstractAssert<S, A> {

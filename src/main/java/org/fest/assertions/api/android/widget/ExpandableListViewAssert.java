@@ -4,7 +4,7 @@ package org.fest.assertions.api.android.widget;
 import android.widget.ExpandableListAdapter;
 import android.widget.ExpandableListView;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link ExpandableListView} instances. */
 public class ExpandableListViewAssert

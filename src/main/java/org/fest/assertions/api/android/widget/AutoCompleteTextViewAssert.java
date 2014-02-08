@@ -5,7 +5,7 @@ import android.graphics.drawable.Drawable;
 import android.widget.AutoCompleteTextView;
 import android.widget.ListAdapter;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class AutoCompleteTextViewAssert
     extends AbstractTextViewAssert<AutoCompleteTextViewAssert, AutoCompleteTextView> {

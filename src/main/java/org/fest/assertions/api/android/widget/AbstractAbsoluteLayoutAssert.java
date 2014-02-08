@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.widget;
 import android.widget.AbsoluteLayout;
 import org.fest.assertions.api.android.view.AbstractViewGroupAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractAbsoluteLayoutAssert<S extends AbstractAbsoluteLayoutAssert<S, A>, A extends AbsoluteLayout>
     extends AbstractViewGroupAssert<S, A> {

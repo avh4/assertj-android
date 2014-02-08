@@ -2,9 +2,9 @@
 package org.fest.assertions.api.android.support.v4.content;
 
 import android.support.v4.content.Loader;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractLoaderAssert<S extends AbstractLoaderAssert<S, A>, A extends Loader>
     extends AbstractAssert<S, A> {

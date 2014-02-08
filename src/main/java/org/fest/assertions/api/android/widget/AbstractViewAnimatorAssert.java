@@ -6,7 +6,7 @@ import android.widget.ViewAnimator;
 import org.fest.assertions.api.ANDROID;
 import org.fest.assertions.api.android.view.AbstractViewGroupAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractViewAnimatorAssert<S extends AbstractViewAnimatorAssert<S, A>, A extends ViewAnimator>
     extends AbstractViewGroupAssert<S, A> {

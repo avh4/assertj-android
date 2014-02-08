@@ -2,9 +2,9 @@
 package org.fest.assertions.api.android.widget;
 
 import android.widget.Adapter;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractAdapterAssert<S extends AbstractAdapterAssert<S, A>, A extends Adapter>
     extends AbstractAssert<S, A> {

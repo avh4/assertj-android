@@ -1,8 +1,8 @@
 package org.fest.assertions.api.android.view;
 
 import android.view.ViewTreeObserver;
-import org.fest.assertions.api.Assertions;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.Assertions;
+import org.assertj.core.api.AbstractAssert;
 
 /** Assertions for {@link ViewTreeObserver} instances. */
 public class ViewTreeObserverAssert

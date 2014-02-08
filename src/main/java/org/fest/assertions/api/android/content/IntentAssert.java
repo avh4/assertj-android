@@ -4,7 +4,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 import org.fest.assertions.api.android.util.BitMaskStringBuilder;
 
 import static android.content.Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT;
@@ -29,7 +29,7 @@ import static android.content.Intent.FLAG_FROM_BACKGROUND;
 import static android.content.Intent.FLAG_GRANT_READ_URI_PERMISSION;
 import static android.content.Intent.FLAG_GRANT_WRITE_URI_PERMISSION;
 import static android.content.Intent.FLAG_RECEIVER_REGISTERED_ONLY;
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link Intent} instances. */
 public class IntentAssert extends AbstractAssert<IntentAssert, Intent> {

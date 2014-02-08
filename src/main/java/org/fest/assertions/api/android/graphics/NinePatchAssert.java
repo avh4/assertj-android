@@ -2,9 +2,9 @@
 package org.fest.assertions.api.android.graphics;
 
 import android.graphics.NinePatch;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link NinePatch} instances. */
 public class NinePatchAssert extends AbstractAssert<NinePatchAssert, NinePatch> {

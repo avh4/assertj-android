@@ -2,9 +2,9 @@
 package org.fest.assertions.api.android.hardware.usb;
 
 import android.hardware.usb.UsbAccessory;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link UsbAccessory} instances. */
 public class UsbAccessoryAssert extends AbstractAssert<UsbAccessoryAssert, UsbAccessory> {

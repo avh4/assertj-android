@@ -2,7 +2,7 @@ package org.fest.assertions.api.android.view;
 
 import android.view.ViewGroup;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public abstract class AbstractViewGroupMarginLayoutParamsAssert<S extends AbstractViewGroupMarginLayoutParamsAssert<S, A>, A extends ViewGroup.MarginLayoutParams>
     extends AbstractViewGroupLayoutParamsAssert<S, A> {

@@ -2,7 +2,7 @@ package org.fest.assertions.api.android.view;
 
 import android.view.KeyEvent;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link KeyEvent} instances. */
 public class KeyEventAssert extends AbstractInputEventAssert<KeyEventAssert, KeyEvent> {

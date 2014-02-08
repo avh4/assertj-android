@@ -3,7 +3,7 @@ package org.fest.assertions.api.android.graphics.drawable;
 
 import android.graphics.drawable.GradientDrawable;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link android.graphics.drawable.GradientDrawable} instances. */
 public class GradientDrawableAssert

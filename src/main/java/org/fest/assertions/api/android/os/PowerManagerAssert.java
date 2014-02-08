@@ -2,8 +2,8 @@
 package org.fest.assertions.api.android.os;
 
 import android.os.PowerManager;
-import org.fest.assertions.api.Assertions;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.Assertions;
+import org.assertj.core.api.AbstractAssert;
 
 /** Assertions for {@link PowerManager} instances. */
 public class PowerManagerAssert extends AbstractAssert<PowerManagerAssert, PowerManager> {

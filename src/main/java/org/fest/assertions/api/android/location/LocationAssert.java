@@ -2,9 +2,9 @@
 package org.fest.assertions.api.android.location;
 
 import android.location.Location;
-import org.fest.assertions.api.AbstractAssert;
+import org.assertj.core.api.AbstractAssert;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThat;
 
 /** Assertions for {@link Location} instances. */
 public class LocationAssert extends AbstractAssert<LocationAssert, Location> {
