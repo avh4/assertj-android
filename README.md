@@ -79,7 +79,7 @@ support library is included too.
 To get started writing tests add the following import:
 
 ```java
-import static org.fest.assertions.api.ANDROID.assertThat;
+import static org.assertj.android.api.ANDROID.assertThat;
 ```
 
 

@@ -61,7 +61,7 @@ with open(OUTPUT, 'w') as out:
   out.write('// Copyright 2012 Square, Inc.\n')
   out.write('//\n')
   out.write('// This class is generated. Do not modify directly!\n')
-  out.write('package org.fest.assertions.api;\n\n')
+  out.write('package org.assertj.android.api;\n\n')
   out.write('/** Assertions for testing Android classes. */\n')
   out.write('public class ANDROID {')
   for package, target_package, generic_keys in sorted(assertions, key=lambda x: x[0]):
